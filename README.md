@@ -5,11 +5,11 @@ Neste documento contém a descrição de como o sistema funciona e que programas
   
   No arquivo chamado "Gerenciador de Evento", possuí as pastas 'src' e a 'executavel'. Na pasta src contém as packages e classes utilizadas para construir o sistema, estas estão divididas em 4 packages:
   
-  -> Conexão - onde é estabelecida a conexão com o banco de dados.
+  -> Conexão - onde é estabelecida a conexão com o banco de dados. Também é feito a inserção e recuperação de dados das entidades.
   
-  -> Entidades - onde é criado as variáveis de cada classe, utilizando getters e setters.
+  -> Entidades - onde é declarado as entidades utilizadas no sistema.
   
-  -> TrataDados - onde é feito verificações de espaços em branco e vinculações de pessoas com salas e espaços de intervalo.
+  -> TrataDados - onde é feito verificações de inconsistências das entidades.
   
   -> Visual - onde contém todas as telas (JFrames) criadas para este sistema.
   
@@ -26,5 +26,6 @@ O MySQL Workbench se encontra no link: https://dev.mysql.com/downloads/installer
 
 
 Espero que gostem :).
+
 Obrigado pelo experiência.
 
