@@ -26,6 +26,5 @@ O MySQL Workbench se encontra no link: https://dev.mysql.com/downloads/installer
 
 
 Espero que gostem :).
-
 Obrigado pelo experiência.
 
