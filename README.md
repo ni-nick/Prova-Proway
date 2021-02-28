@@ -6,8 +6,11 @@ Neste documento contém a descrição de como o sistema funciona e que programas
   No arquivo chamado "Gerenciador de Evento", possuí as pastas 'src' e a 'executavel'. Na pasta src contém as packages e classes utilizadas para construir o sistema, estas estão divididas em 4 packages:
   
   -> Conexão - onde é estabelecida a conexão com o banco de dados.
+  
   -> Entidades - onde é criado as variáveis de cada classe, utilizando getters e setters.
+  
   -> TrataDados - onde é feito verificações de espaços em branco e vinculações de pessoas com salas e espaços de intervalo.
+  
   -> Visual - onde contém todas as telas (JFrames) criadas para este sistema.
   
   A pasta chamada executável contém um GerenciadorDeEvento.jar para ser baixado, este é o executável do sistema.
@@ -15,6 +18,7 @@ Neste documento contém a descrição de como o sistema funciona e que programas
  
  
   Como descrito no documento do programa GoDev_, o sistema requer persistência de dados, para isso foi utilizado o programa MySQL Workbench usando o localhost. Então para executar o sistema, quem o testar deve baixar o MySQL Workbench inserindo durante a instalação o mesmo user e senha, o user é 'root' e a senha '123456'. Após a instalação é necessário criar a conexão com o banco de dados que deve se chamar 'ProvaJava'. 
+  
 OBS:. Todas as informações precisam ser iguais para que o sistema consiga ser executado.
 
 O MySQL Workbench se encontra no link: https://dev.mysql.com/downloads/installer/  - instale a segunda opção.
